@@ -1,0 +1,130 @@
+[
+{
+  "id": 1,
+  "title": "Cómo empezó todo",
+  "cover": "images/covers/empezo.jpg",
+  "importance": 3,
+  "unlock": {
+    "type": "none",
+    "date": null,
+    "key": null,
+    "question": "",
+    "hint": "",
+    "successMessage": ""
+  },
+  "content": {
+    "story": "Bueno... me imagino que este es el primer regalo que estás abriendo.<br><br>Los regalos funcionan así: todos son una historia. En algunos vas a encontrar imágenes, en otros capaz hay una canción, o un audio raro, o una carta larga como esta. Mi idea con todo esto es que puedas venir aquí cuando quieras, abrir uno nuevo, recordarlo, reírte, emocionarte o no se, simplemente sentirte querida. Como es el primero, solo queria hablar de como empezamos a hablar. Tuve que scrollear un rato para poder leer y ver las conversaciones y te lo juro que no me acordaba de las estupideces que decía.<br><br>Nunca en mi vida me imaginé que estaría escribiendo algo así para alguien. Haciendo una página entera de regalos, escondiendo pistas, poniendo poemas... Pero aquí estoy. Y lo que más me gusta de todo es que lo estoy haciendo para ti.<br><br>Así que bueno, este es tu primer regalo. Quería empezarlo contándote cómo empezamos tú y yo.<br><br>Que bueno que cada vez que corría subía historias estupidas. Que bueno que mis gustos musicales son superiores. Gracias Drake, <em>Die Trying</em> me dio una novia.<br><br>Ahí es cuando tú apareces. Me respondes con un mensaje tan simple: <strong>“Top canciones”</strong>. Ya. Historia de amor completa. Los dos sabemos que tu ya eras mi fan de hace rato. Yo respondi por educación nada más.<br><br>Te respondí <strong>“Gracias Drake”</strong>. En verdad no sabía ni qué decir.<br><br>A partir de ahí no paramos. Seguimos hablando, los mensajes se volvieron interesantes, y de la nada ya estábamos en una llamada. Ese mismo día. Hablamos como dos horas, sin pausas raras ni silencios incómodos. Era como si ya te conociera de toda la vida.<br><br>Ahora por alguna razón terminé escribiendo una carta para ponerla en una página que programé. En fin. Gracias por responderme la historia. Gracias por aparecer en mi vida. La haces mejor.<br><br>Iba a poner mas fotos, pero era demasiado grosero, asi que voy a poner esas y ya.",
+    "poem": "",
+    "audios": [],
+    "images": [
+      { "src": "images/empezo1.jpg", "size": "large" },
+      { "src": "images/empezo2.jpg", "size": "large" }
+    ],
+    "videos": []
+  }
+},
+{
+  "id": 2,
+  "title": "Que me gustaras tanto",
+  "cover": "images/covers/quemegustarastanto.jpg",
+  "importance": 3,
+  "unlock": {
+    "type": "key",
+    "date": null,
+    "key": "Juanchi",
+    "question": "Este es el primer regalo que tiene clave. Tienes que responder correctamente la pregunta para poder ver el regalo.<br><br>Más te vale que me hayas escuchado cuando hablaba.<br>¿Quién es mi mejor amigo?<br>",
+    "hint": "Es mi mejor amigo desde que soy pequeño. Es de Barquisimeto.",
+    "successMessage": "Ese es mi mejor amigo. Siempre lo será. Bieeen ya entendiste como funciona. Ahora dale al botón de abajo, ya puedes ver tu regalo."
+  },
+  "content": {
+    "story": "¿Te acuerdas que me habías dicho que querías escuchar alguna de las canciones que te había escrito y yo te decía que no? Bueno... me las estaba guardando para ponerlas aquí. Todos los audios que te voy a mostrar son probablemente los primeros audios que grabé en mi teléfono, sentado en mi cama. Así que si no se escuchan perfecto, no me juzgues.<br><br>Estuve pensando en si grabarlas otra vez para que todas sonaran bonitas y bien hechas, pero después pensé que no. Me parecía más lindo mostrarte <em>literalmente</em> el audio que grabé en ese momento. Mostrarte lo que pensaba, lo que sentía, lo que escribí, lo que canté.<br><br>Esta es la primera canción que te escribí. Y bueno, habla más o menos de eso... de que no me lo esperaba. No esperaba que me gustaras. Y menos que me gustaras tanto.<br><br>Estas canciones son, por decirlo así, una forma de expresarme. A veces me salen más cantadas que habladas. Esta en particular la grabé en mi cuarto, un día que colgamos después de una llamada. Y sí, ya sé que la letra no es perfecta, ni la canción tampoco, pero es real. Me trabo, no está tocada con técnica, pero sí está cantada con verdad. Con eso que estaba sintiendo. <br><br>Y bueno, aquí está. La letra la puedes leer abajo. Si me tranco cantando, eso era lo que se suponía que debía decir. Espero que te guste. Esta es la primera. Te amo. Mucho.",
+    "poem": "Nunca yo pensé, que te estaría cantando\nNunca imaginé, que me gustaras tanto\nMe da miedo hablarte\nNo sé cómo rogarte\nNo sé cómo explicarte\nQue tú me gustas tanto\nQue tú me gustas tanto que...\nTe veo y me tiemblan los pies\nEs que me gusta\nCómo eres\nCuando camina\nElla hipnotiza...",
+    "audios": [
+      {
+        "src": "audios/quemegustarastanto.m4a",
+        "description": "Grabada una noche después de hablar contigo, en mi cuarto, con el corazón lleno."
+      }
+    ],
+    "images": [],
+    "videos": []
+  }
+},
+{
+  "id": 3,
+  "title": "Me enamoré",
+  "cover": "images/covers/menamore.jpg",
+  "importance": 3,
+  "unlock": {
+    "type": "key",
+    "date": null,
+    "key": "Negra",
+    "question": "Te he puesto casi 3 millones de apodos desde que estamos juntos, pero siempre hay uno que uso demasiado. ¿Cuál es el apodo que más uso para llamarte?",
+    "hint": "Tiene que ver con tu color de piel. O el mío.",
+    "successMessage": "Quien te manda a decirme negro a cada rato."
+  },
+  "content": {
+    "story": "Otro audio que no es perfecto, lo sé. Algún día me gustaría hacerte una canción de verdad, que suene bonita, que la puedas poner en el carro o mostrarle a alguien y decir 'esa me la hicieron a mí'. Pero bueno, mientras tanto están estas.<br><br>Esta la grabé en Barquisimeto, uno de esos fines de semana que vine a ver a mi familia. Y me acuerdo perfecto porque esa noche no podía dejar de pensar en ti. Uno de los muchos días en los que de verdad estaba dudando de si me había enamorado o no. Así. Tal cual. No lo esperaba. No estaba buscando eso, pero pasó.<br><br>Sé que suena cursi. Sé que yo también soy cursi. A veces quisiera ser más normal, pero estas son las canciones que me salen. Esta, en particular, la escribí en un papel, más organizada que las otras. Le dediqué más tiempo pensando. <br><br>Así que aquí la tienes. Espero que te guste. Gracias por inspirarme a escribir algo así. Te amo.",
+    "poem": "Y me volví a enamorar\nMe mata solo el pensar\nQue esos labios yo quiero besar\nYa yo no sé si volver a empezar...\nEs que me encanta\nSu cara de santa\nSu cuerpo que mata\nElla me daña, y me engaña con su mirada\nY cómo me habla\nY cómo se mueve...\nUn cuento de hadas",
+    "audios": [
+      {
+        "src": "audios/menamore.m4a",
+        "description": "Que bobo. Si me enamoré primero."
+      }
+    ],
+    "images": [],
+    "videos": []
+  }
+},
+{
+  "id": 4,
+  "title": "Lo que me gusta de ti",
+  "cover": "images/covers/lista.jpg",
+  "importance": 3,
+  "unlock": {
+    "type": "key",
+    "date": null,
+    "key": "Isco",
+    "question": "Es imposible que no sepas esto. ¿Quién es mi jugador favorito de fútbol?",
+    "hint": "No te voy a dar pista en esta pregunta. Sigue intentando, tienes que saber quién es.",
+    "successMessage": "Tenías que responder esta, te lo juro."
+  },
+  "content": {
+    "story": "Esta es una lista larga, porque tú tienes demasiadas cosas lindas. Algunas son obvias. Otras son pequeñas. Pero todas me hacen quererte más.<ol><li>Tu pelo, largo o corto.</li><li>Tu sonrisa.</li><li>Tus ojos.</li><li>Tú cuando te pones lentes.</li><li>Cómo te vistes.</li><li>Cuando me dices que soy negro.</li><li>Cuando me dices te amo.</li><li>Cuando me dices que estoy lindo.</li><li>Tu perseverancia.</li><li>El trabajo que le pones a las cosas.</li><li>El cariño que le tienes a los demás.</li><li>Lo genuina que eres.</li><li>Lo real que eres.</li><li>Tú maquillada.</li><li>Tú sin maquillar.</li><li>Tú en vestido.</li><li>Tú en pijama.</li><li>Cómo combinas los accesorios.</li><li>Tu risa.</li><li>Cuando me hablas como bebé.</li><li>Cuando te molestas porque te dejo en azul.</li><li>Tu madurez.</li><li>Cuando te quedas dormida en llamada conmigo.</li><li>Lo inteligente que eres.</li><li>Lo chistosa que eres.</li><li>Lo interesante que eres.</li><li>Tu voz.</li><li>Tu forma de caminar.</li><li>Cuando te ríes fuerte.</li><li>Cuando te ríes en silencio.</li><li>Cuando te enojas por tonterías.</li><li>Cuando me corriges con cara seria.</li><li>Tu forma de explicarme cosas.</li><li>Cómo me miras cuando no digo nada.</li><li>Cómo te emocionas por cosas pequeñas.</li><li>Cuando me mandas audios con risa.</li><li>Cómo haces tus playlists.</li><li>Cómo escribes en notas.</li><li>Tu letra.</li><li>Tu forma de saludar por llamada.</li><li>Cuando me dices “ya va”.</li><li>Cuando te haces la dormida.</li><li>Cuando te vistes toda linda sin motivo.</li><li>Cuando me hablas con voz seria pero estás jugando.</li><li>Tu cara cuando te hago un cumplido.</li><li>Tu cara cuando te hago reír sin querer.</li><li>Cuando te haces la dura.</li><li>Cuando te haces la boba.</li><li>Tu sinceridad.</li></ol><p>Y podría seguir. Pero tú ya sabes. Me gustas. Toda tú.</p>",
+    "poem": "",
+    "audios": [],
+    "images": [
+      { "src": "images/isaconlentes.jpg", "size": "large" },
+      { "src": "images/lista2.jpg", "size": "large" },
+      { "src": "images/lista3.jpg", "size": "large" },
+      { "src": "images/lista4.jpg", "size": "large" }
+    ],
+    "videos": []
+  }
+},
+{
+  "id": 5,
+  "title": "Loqmicora",
+  "cover": "images/covers/loqmicora.jpg",
+  "importance": 3,
+  "unlock": {
+    "type": "none",
+    "date": null,
+    "key": null,
+    "question": "",
+    "hint": "",
+    "successMessage": ""
+  },
+  "content": {
+    "story": "Esta canción sé que es muy corta, pero es una de mis favoritas. Ya existe una versión larga, pero quería mostrarte primero el primer audio que grabé. Y espero que te guste. Te amo mucho.<br><br>Cada vez que escucho estos audios me haces falta el doble. Y quería aprovechar este último regalo de esta primera entrega, por decirlo así, para darte las gracias.<br><br>Gracias por soportarme, por amarme como me amas, por valorarme como soy. Eres una de las personas más increíbles que he conocido en mi vida. Eres excesivamente diferente. Excesivamente especial. Eres de lo mejor que me ha pasado en la vida.<br><br>Solo quería que lo supieras. Que te amo mucho. Que te extraño con todo mi corazón. Y que ojalá te haya gustado esta primera entrega. La hice con todo el cariño, con todo el corazón. Gracias por ser tú. Gracias por existir en mi vida.<br><br>Te amo, Negra.",
+    "poem": "Si alguien le dijera...\nLo que mi cora siente\nSi alguien le dijera,\nQue... me mata lentamente",
+    "audios": [
+      {
+        "src": "audios/loqmicora.m4a",
+        "description": "El primer audio que grabé de esta canción. Es de mis favoritas, aunque sea corta."
+      }
+    ],
+    "images": [],
+    "videos": []
+  }
+}
+]

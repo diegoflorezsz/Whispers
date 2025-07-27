@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whispers - Galería</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/gallery.css" />
+  <style>
+    @font-face {
+      font-family: 'Halenoir Bold';
+      src: url('fonts/Halenoir/Halenoir-Bold.otf') format('opentype');
+      font-weight: bold;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+  <div id="navbar-container"></div>
+  <script>
+    fetch("navbar.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("navbar-container").innerHTML = data;
+    });
+  </script>
+
+  <header>
+    <h1 class="gallery-title">Mis regalos</h1>
+  </header>
+
+  <main>
+    <p class="gallery-subtitle">
+        <strong>Aquí guardé todo lo que te he hecho.</strong><br />
+        Cada regalo es diferente, pero todos tienen la misma razón de ser. Tú.<br />
+    </p>
+    <section class="gallery-container" id="gallery">
+      <!-- Aquí se insertarán las tarjetas dinámicamente -->
+    </section>
+  </main>
+
+  <script src="js/gallery.js"></script>
+</body>
+</html>

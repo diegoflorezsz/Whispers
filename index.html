@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Whispers</title>
+  <link rel="stylesheet" href="css/landing.css" />
+
+  <!-- Fuentes personalizadas -->
+  <style>
+    @font-face {
+      font-family: 'Halenoir Bold';
+      src: url('../fonts/Halenoir/Halenoir-Bold.otf') format('opentype');
+    }
+
+    @font-face {
+      font-family: 'Halenoir Light';
+      src: url('../fonts/Halenoir/HalenoirCompact-Light.otf') format('opentype');
+    }
+
+    @font-face {
+      font-family: 'Chaumont';
+      src: url('../fonts/Chaumont-Regular.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+</head>
+<div class="particles-container"></div>
+
+<script>
+  const container = document.querySelector('.particles-container');
+
+  for (let i = 0; i < 40; i++) {
+    const particle = document.createElement('div');
+    particle.classList.add('particle');
+
+    // Posición aleatoria horizontal
+    particle.style.left = Math.random() * 100 + 'vw';
+
+    // Retraso aleatorio para efecto fluido
+    particle.style.animationDelay = Math.random() * 5 + 's';
+
+    // Tamaño aleatorio
+    const size = Math.random() * 4 + 1;
+    particle.style.width = `${size}px`;
+    particle.style.height = `${size}px`;
+
+    container.appendChild(particle);
+  }
+</script>
+
+<body>
+  <main class="hero">
+    <div class="hero-content">
+      <!-- Imagen del título en lugar de texto -->
+      <div class="hero-title">
+        <img src="images/tituloblanco.png" alt="Whispers" class="title-whispers" />
+      </div>
+
+      <p class="hero-description index-text">
+        ¿Te acuerdas que dije que estaba programando algo?<br />
+        <strong>Bueno, bienvenida a Whispers.</strong><br />
+        Esto es un regalo que construí con mucho cariño. Lo hice pensando en ti, en lo que me haces sentir, en lo mucho que te quiero.<br />
+        <br />
+        Ojalá lo disfrutes, lo sientas, lo juegues.<br />
+        Dale al botoncito de abajo. Te amo.
+      </p>
+
+      <a href="gallery.html" class="hero-button"><strong>Ver mis regalos</strong></a>
+    </div>
+  </main>
+</body>
+</html>

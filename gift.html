@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Whispers - Regalo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/gift.css" />
+  <style>
+    @font-face {
+      font-family: 'Halenoir Bold';
+      src: url('fonts/Halenoir/Halenoir-Bold.otf') format('opentype');
+      font-weight: bold;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+  <div id="navbar-container"></div>
+  <script>
+    fetch("navbar.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("navbar-container").innerHTML = data;
+      });
+  </script>
+
+  <main class="gift-container">
+
+
+
+    <!-- Sección de desbloqueo (si aplica) -->
+    <div id="gift-unlock" class="gift-unlock-section"></div>
+
+    <!-- Contenido del regalo -->
+    <section class="gift-content">
+      <div id="gift-text" class="gift-text"></div>
+      <div id="gift-media" class="gift-media"></div>
+    </section>
+    
+    <!-- Botón de regreso -->
+    <div class="back-button-container">
+      <a href="gallery.html" class="back-button">Volver a la galería</a>
+    </div>
+  </main>
+
+  <script src="js/gift.js"></script>
+</body>
+</html>

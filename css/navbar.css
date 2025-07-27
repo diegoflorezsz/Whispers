@@ -1,0 +1,63 @@
+:root {
+  --burgundy-dark: #4b0f1a;
+  --burgundy: #800020;
+  --cream: #F6F1EB;
+}
+
+/* NAVBAR RECTANGULAR CON MÁS ALTURA */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 160px;
+  background: linear-gradient(to bottom right, var(--burgundy), var(--burgundy-dark));
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTENIDO CENTRADO */
+.navbar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* IMAGEN DEL TÍTULO */
+.logo-image {
+  height: 90px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  margin-bottom: 0;
+}
+
+/* FECHA DEBAJO DEL TÍTULO */
+.navbar-date {
+  font-size: 0.85rem;
+  color: var(--cream);
+  opacity: 0.85;
+  font-family: 'Halenoir Light', sans-serif;
+  line-height: 1;
+  margin-top: 0.3rem;
+}
+
+/* RESPONSIVE PARA TELÉFONOS */
+@media (max-width: 600px) {
+  .navbar {
+    height: 120px;
+  }
+
+  .logo-image {
+    height: 65px;
+  }
+
+  .navbar-date {
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,176 @@
+:root {
+  --burgundy-dark: #4b0f1a;
+  --burgundy: #800020;
+  --cream: #F6F1EB;
+  --text-light: #fff;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Halenoir Light', sans-serif;
+  background: linear-gradient(to bottom right, var(--burgundy), var(--burgundy-dark));
+  color: var(--cream);
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+/* Ya no usamos fuente para hero-title */
+.hero-title {
+  margin-bottom: 1rem;
+}
+
+/* Título como imagen */
+.title-whispers {
+  width: 100%;
+  max-width: 350px; /* Aproximado a 3.5rem de altura visual */
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* Texto de bienvenida */
+.hero-description.index-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+/* Estilo para negritas y cursivas */
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--cream);
+  color: var(--burgundy);
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .title-whispers {
+    max-width: 250px;
+  }
+
+  .hero-description.index-text {
+    font-size: 0.95rem;
+  }
+
+  .hero-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+/* ANIMACIONES DE ENTRADA
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-title,
+.hero-description,
+.hero-button {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.hero-title {
+  animation-delay: 0.2s;
+}
+
+.hero-description {
+  animation-delay: 0.6s;
+}
+
+.hero-button {
+  animation-delay: 1s;
+} */
+
+/* LATIDO DEL BOTÓN */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hero-button {
+  animation: fadeInUp 1s ease-out forwards, pulse 4s ease-in-out infinite;
+}*/
+
+/* CONTENEDOR DE PARTÍCULAS */
+.particles-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* PARTICULITA */
+.particle {
+  position: absolute;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  animation: rise 5s linear infinite;
+}
+
+/* ANIMACIÓN DE ASCENSO */
+@keyframes rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-100vh) scale(0.5);
+    opacity: 0;
+  }
+}
