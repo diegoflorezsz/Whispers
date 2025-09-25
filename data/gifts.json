@@ -152,13 +152,38 @@
 },
 {
   "id": 7,
+  "title": "Cosas lindas que tengo de ti",
+  "cover": "images/covers/cosaslindas.jpg",
+  "importance": 3,
+  "unlock": {
+    "type": "none",
+    "key": null,
+    "question": "",
+    "hint": "",
+    "successMessage": ""
+  },
+  "content": {
+    "story": "No soy el mejor editando videos, pero bueno al menos lo intenté. Lo hice con mucho cariño. Es un pequeño regalo para mostrarte algunas de las cosas lindas que tengo de ti. Ojalá lo sientas tan tuyo como lo siento yo.",
+    "poem": "",
+    "audios": [],
+    "images": [],
+    "videos": [
+      {
+        "src": "videos/cosaslindas.mp4",
+        "size": "medium"
+      }
+    ]
+  }
+},
+{
+  "id": 8,
   "title": "Te pienso",
   "cover": "images/covers/tepienso.jpg",
-  "importance": 2,
+  "importance": 3,
   "unlock": {
     "type": "key",
     "key": "asdfghyju",
-    "question": "Este es un regalo especial. Escríbeme después de las 2:00 PM y pídeme la clave.",
+    "question": "Este es un regalo especial. Este te lo iba a dar en la tarde, pero se que estas ocupada. Luego te lo desbloqueo.",
     "hint": "Es una frase que te repito cuando te extraño.",
     "successMessage": "Aquí está. Espero que te guste tanto como yo te pienso."
   },
@@ -176,31 +201,6 @@
   }
 },
 {
-  "id": 8,
-  "title": "Cosas lindas que tengo de ti",
-  "cover": "images/covers/cosaslindas.jpg",
-  "importance": 2,
-  "unlock": {
-    "type": "key",
-    "key": "asdfghyju",
-    "question": "Este es un video que hice para ti. Puedes pedirme la clave después de las 4:00 PM.",
-    "hint": "Es algo que te digo que tienes, y no siempre lo ves.",
-    "successMessage": "Aquí está el video. Gracias por todas las cosas lindas que me dejaste."
-  },
-  "content": {
-    "story": "Quería hacerte algo distinto. Un video que junte muchas cosas lindas que me dejaste. Cosas que tengo de ti, aunque tú no siempre te des cuenta. Tus gestos, tus palabras, tus risas, tus momentos. Esto es solo una parte. Porque lo más lindo que tengo de ti... eres tú.",
-    "poem": "",
-    "audios": [],
-    "images": [],
-    "videos": [
-      {
-        "src": "videos/cosaslindas.mp4",
-        "size": "medium"
-      }
-    ]
-  }
-},
-{
   "id": 9,
   "title": "Es tu culpa",
   "cover": "images/covers/tuculpa.jpg",
@@ -208,7 +208,7 @@
   "unlock": {
     "type": "key",
     "key": "asdfghyju",
-    "question": "Esta canción te la entrego con todo. Escríbeme a las 6:00 PM y te doy la clave.",
+    "question": "Este regalo no esta listo todavia.",
     "hint": "Siempre digo que tú tienes la culpa de esto.",
     "successMessage": "Aquí está. Es tu culpa, por ser tan tú."
   },
