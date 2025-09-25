@@ -126,5 +126,103 @@
     "images": [],
     "videos": []
   }
+},
+{
+  "id": 6,
+  "title": "Feliz cumpleaños, Isa",
+  "cover": "images/covers/cumple1.jpg",
+  "importance": 3,
+  "unlock": {
+    "type": "none",
+    "date": null,
+    "key": null,
+    "question": "",
+    "hint": "",
+    "successMessage": ""
+  },
+  "content": {
+    "story": "Isa...<br><br>Feliz cumpleaños.<br><br>Me regalaste una historia que nunca en mi vida me hubiese imaginado vivir. No quiero sonar a película, no quiero que parezca que estoy exagerando, solo estoy diciendo lo que me sale del corazón. Lo que lees, es lo que siento.<br><br>No te escribo para pedirte nada. Solo para decirte que aquí estoy. Que te sigo queriendo bonito. Que, aunque no estemos en el mismo lugar, aunque la vida nos esté poniendo a prueba, sigues siendo la persona más importante en mi corazón.<br><br>Tú eres la mujer más interesante que he conocido. De verdad. Y también la más hermosa. Pero no es solo tu cara bonita lo que me hizo quedarme. Fue tu mente, tu forma de ver la vida, tu carácter, tu sensibilidad... y cómo todo eso se mezcla contigo, con tu forma tan única de ser.<br><br>Me enamoré muchas veces de ti. Me enamoré cuando te vi por primera vez, (bueno, segunda) sin saber nada. Me enamoré otra vez cuando empecé a conocerte de verdad. Cuando me hablaste de tu mundo, de tus miedos, de tus sueños. Me enamoré de cómo te ríes, de tus chistes, de cómo hablas de las cosas que amas. Y me estoy enamorando hoy. Otra vez. Todos los días. Aunque sea un poco.<br><br>Amo tu voz cuando estás feliz. Amo tu voz cuando estás durmiéndote. Amo cómo se te iluminan los ojos cuando hablas de lo que te gusta. Amo cómo me miras. Amo tus detalles. Amo que me hayas cuidado incluso cuando yo no supe cómo cuidarme.<br><br>Me encantas. Con lentes, sin lentes. Con el pelo largo, con el pelo corto. Cuando estás arreglada, y cuando estás en pijama sin ganas de nada. Me gustas cuando estás molesta. Me gustas cuando estás feliz. Si me pongo a hablar duro 3 años. Me gustas en todas tus versiones, porque en todas estás tú, y tú siempre me encantas.<br><br>Hoy estás cumpliendo años, y no sabes cuánto celebro tu vida. Rezo todos los días por ti. Por tu bienestar, por tu salud, por tu felicidad. Por tu familia, que quiero tanto. Le pido a Dios que te bendiga con muchos años más, llenos de amor, de crecimiento, de paz.<br><br>Confío en ti. Confío en todo lo que eres y todo lo que puedes llegar a ser. Te admiro. Eres de las pocas personas que me inspiran de verdad. Y me siento muy afortunado de haberte conocido. Porque gracias a ti aprendí muchas cosas. Cosas sobre mí, sobre la vida, sobre amar.<br><br>No sé qué va a pasar. No puedo controlar el futuro. Pero sí sé lo que siento. Y lo que siento por ti sigue aquí. Tranquilo. Real. Vivo.<br><br>Gracias por existir. Gracias por haber sido parte de mi historia. Gracias por todo lo que me diste, incluso cuando no sabías que me lo estabas dando.<br><br>Feliz cumpleaños, Isa.<br><br>Te amo. Siempre.",
+    "poem": "",
+    "audios": [],
+    "images": [
+      { "src": "images/covers/cumple1.jpg", "size": "large" }
+    ],
+    "videos": []
+  }
+},
+{
+  "id": 7,
+  "title": "Te pienso",
+  "cover": "images/covers/tepienso.jpg",
+  "importance": 2,
+  "unlock": {
+    "type": "key",
+    "key": "asdfghyju",
+    "question": "Este es un regalo especial. Escríbeme después de las 2:00 PM y pídeme la clave.",
+    "hint": "Es una frase que te repito cuando te extraño.",
+    "successMessage": "Aquí está. Espero que te guste tanto como yo te pienso."
+  },
+  "content": {
+    "story": "Esta canción habla de lo mucho que te extraño. La escribí en uno de esos días donde no te tengo cerca, pero te siento en todo. La hice pensando en ti, en lo que dejaste en mí, en lo que todavía vive aquí adentro. Ojalá te guste.",
+    "poem": "",
+    "audios": [
+      {
+        "src": "audio/tepienso.mp3",
+        "description": "Canción grabada desde el corazón, en uno de esos días en los que te pensé más de la cuenta."
+      }
+    ],
+    "images": [],
+    "videos": []
+  }
+},
+{
+  "id": 8,
+  "title": "Cosas lindas que tengo de ti",
+  "cover": "images/covers/cosaslindas.jpg",
+  "importance": 2,
+  "unlock": {
+    "type": "key",
+    "key": "asdfghyju",
+    "question": "Este es un video que hice para ti. Puedes pedirme la clave después de las 4:00 PM.",
+    "hint": "Es algo que te digo que tienes, y no siempre lo ves.",
+    "successMessage": "Aquí está el video. Gracias por todas las cosas lindas que me dejaste."
+  },
+  "content": {
+    "story": "Quería hacerte algo distinto. Un video que junte muchas cosas lindas que me dejaste. Cosas que tengo de ti, aunque tú no siempre te des cuenta. Tus gestos, tus palabras, tus risas, tus momentos. Esto es solo una parte. Porque lo más lindo que tengo de ti... eres tú.",
+    "poem": "",
+    "audios": [],
+    "images": [],
+    "videos": [
+      {
+        "src": "videos/cosaslindas.mp4",
+        "size": "medium"
+      }
+    ]
+  }
+},
+{
+  "id": 9,
+  "title": "Es tu culpa",
+  "cover": "images/covers/tuculpa.jpg",
+  "importance": 3,
+  "unlock": {
+    "type": "key",
+    "key": "asdfghyju",
+    "question": "Esta canción te la entrego con todo. Escríbeme a las 6:00 PM y te doy la clave.",
+    "hint": "Siempre digo que tú tienes la culpa de esto.",
+    "successMessage": "Aquí está. Es tu culpa, por ser tan tú."
+  },
+  "content": {
+    "story": "Esta canción trata de eso. De todo eso. De por qué me enamoré de ti. No fue por una sola cosa, fue por muchas. Fue porque te vi, te escuché, te conocí, y ya no pude evitarlo. Cada parte de ti me fue ganando, sin esfuerzo. Solo siendo tú.",
+    "poem": "",
+    "audios": [
+      {
+        "src": "audio/porqueenamore.mp3",
+        "description": "No sé si esto es una canción o una confesión, pero es todo lo que siento."
+      }
+    ],
+    "images": [],
+    "videos": []
+  }
 }
 ]
